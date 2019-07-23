@@ -1,0 +1,38 @@
+.box{
+    background-color: #FAFAFA;
+    border: 1px solid #dedede;
+    border-radius: 3px;
+    box-shadow: 1px 2px 10px rgba(0,0,0,.1);
+    box-sizing: border-box;
+    display: block;
+    height: 100%;
+    max-width: 400px;
+    min-height: 80px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 0.6em;
+    text-align: left;
+    transition: box-shadow 0.1s ease-in-out,
+                max-width 0.2s ease-in-out;
+    width: 100%;
+}
+
+.box:hover{
+    box-shadow: 1px 2px 30px rgba(0,0,0,.08);
+    max-width: 408px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+.date,
+.title{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.4em;
+    width: 100%;
+    display: block;
+}
+
+.date{
+    font-size: .8em;
+    color: #ccc;
+}
