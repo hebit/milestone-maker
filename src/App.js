@@ -11,7 +11,7 @@ class App extends Component {
   }
 
   settings = {
-    acessKey: 'PBpuVdjxc8dTgbUCkzVz',
+    acessKey: process.env.REACT_APP_ACESS_TOKEN,
     groupId: '4521828',
     sprint_days: 14
   }
