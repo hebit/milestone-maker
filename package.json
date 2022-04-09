@@ -6,7 +6,7 @@
     "axios": "^0.19.0",
     "lodash": "^4.17.15",
     "lodash.template": "^4.5.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-moment": "^0.9.2",
